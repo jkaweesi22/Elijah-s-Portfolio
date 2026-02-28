@@ -1,7 +1,22 @@
 import Link from "next/link";
-import { Instagram, Linkedin, Behance } from "lucide-react";
+import { Instagram, Linkedin } from "lucide-react";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
+/** Custom Behance icon - not available in lucide-react */
+function BehanceIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      aria-hidden
+    >
+      <path d="M22 7h-7v-2h7v2zM15 13.5c-1.3 0-1.9.7-2.2 1.2-.3-.5-.9-1.2-2.2-1.2-2.5 0-2.8 2.1-2.8 2.8 0 2.2 1.2 3.6 2.8 3.6 1.2 0 1.8-.6 2.1-1.1.1.6.6 1.1 1.2 1.1h2.5c.2 0 .4-.2.4-.4v-.1c0-2.2-1.4-3.5-3.5-3.5zm-4 .6c1.2 0 1.4-1.3 1.4-2 0-.9-.2-2-1.4-2-.9 0-1.4.8-1.4 2 0 1.3.5 2 1.4 2zm7 .6h-2.2c-.2 0-.3.2-.3.4 0 .5.4.8.9.8.6 0 1.2-.3 1.5-.8.2-.3.3-.7.3-1.1 0-.5-.1-.9-.3-1.2-.2-.3-.5-.5-.9-.5-.5 0-.9.2-1.2.5l-.1-.4h-2.1v7h2.2v-2.8c.3.2.7.3 1.1.3 1.1 0 1.8-.9 1.8-2.1 0-.5-.1-1-.3-1.4-.2-.5-.6-.8-1-.9zm-1 3.2c-.4 0-.7-.2-.9-.5-.2-.3-.2-.6-.2-1 0-.7.4-1.2 1-1.2.3 0 .5.1.7.3.2.2.3.4.3.7v.2c0 .6-.4 1.5-1 1.5zM9.9 7H5v2h2.3v1.6H5v2h4.9v1.6H5v2h5.2c2.3 0 4.1-1.3 4.1-4.3 0-2.3-1.5-4.6-4.2-4.6zm.4 6.9h-2V9.6h2c1.4 0 2.2 1.2 2.2 2.2 0 1.1-.7 2.1-2.2 2.1zM2 2h20v20H2V2z" />
+    </svg>
+  );
+}
 
 interface SocialLink {
   platform: string;
@@ -20,7 +35,7 @@ interface FooterProps {
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   instagram: Instagram,
   linkedin: Linkedin,
-  behance: Behance,
+  behance: BehanceIcon,
 };
 
 export function Footer({
