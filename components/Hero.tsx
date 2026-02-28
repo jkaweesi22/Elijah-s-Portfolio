@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { getImageSrc } from "@/lib/getImageSrc";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
@@ -48,7 +47,7 @@ export function Hero({ title, subtitle, backgroundImage, ctas = [] }: HeroProps)
             {ctas.map((cta) => {
               const href = cta.href.startsWith("/") ? `${basePath}${cta.href}` : cta.href;
               return (
-                <Link
+                <a
                   key={cta.label}
                   href={href}
                   className={`inline-flex items-center justify-center rounded-xl px-6 py-3 text-base font-semibold transition-all duration-300 ${
@@ -58,7 +57,7 @@ export function Hero({ title, subtitle, backgroundImage, ctas = [] }: HeroProps)
                   }`}
                 >
                   {cta.label}
-                </Link>
+                </a>
               );
             })}
           </div>

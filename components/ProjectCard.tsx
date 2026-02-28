@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { getImageSrc } from "@/lib/getImageSrc";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
@@ -17,7 +16,7 @@ export function ProjectCard({ slug, title, category, summary, image }: ProjectCa
   const imgSrc = getImageSrc(image);
 
   return (
-    <Link
+    <a
       href={`${basePath}/work/${slug}/`}
       className="group block"
     >
@@ -41,6 +40,6 @@ export function ProjectCard({ slug, title, category, summary, image }: ProjectCa
           <p className="mt-2 text-muted-foreground text-sm line-clamp-2">{summary}</p>
         </div>
       </article>
-    </Link>
+    </a>
   );
 }

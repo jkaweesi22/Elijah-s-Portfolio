@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { Gallery } from "@/components/Gallery";
 import projectsData from "@/data/content/projects.json";
@@ -40,13 +39,13 @@ export default async function ProjectPage({
 
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
-      <Link
+      <a
         href={`${basePath}/work/`}
         className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors mb-8"
       >
         <ArrowLeft className="h-4 w-4" />
         Back to Work
-      </Link>
+      </a>
 
       <div className="max-w-4xl">
         <span className="inline-block rounded-full bg-primary/20 px-3 py-1 text-sm font-medium text-primary mb-4">

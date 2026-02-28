@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -20,30 +19,25 @@ interface HeaderProps {
 export function Header({ siteName, navigation }: HeaderProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  const navLinks = navigation.map((item) => {
-    const href = item.href.startsWith("/") ? `${basePath}${item.href}` : item.href;
-    return { ...item, href };
-  });
-
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link
+        <a
           href={`${basePath}/`}
           className="text-xl font-semibold text-foreground hover:text-primary transition-colors"
         >
           {siteName}
-        </Link>
+        </a>
 
         <nav className="hidden md:flex items-center gap-8">
-          {navLinks.map((item) => (
-            <Link
+          {navigation.map((item) => (
+            <a
               key={item.label}
-              href={item.href}
+              href={item.href.startsWith("/") ? `${basePath}${item.href}` : item.href}
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
               {item.label}
-            </Link>
+            </a>
           ))}
           <ThemeToggle />
         </nav>
@@ -63,15 +57,15 @@ export function Header({ siteName, navigation }: HeaderProps) {
       {mobileOpen && (
         <div className="md:hidden border-t border-border bg-background">
           <nav className="container mx-auto flex flex-col gap-1 px-4 py-4">
-            {navLinks.map((item) => (
-              <Link
+            {navigation.map((item) => (
+              <a
                 key={item.label}
-                href={item.href}
+                href={item.href.startsWith("/") ? `${basePath}${item.href}` : item.href}
                 onClick={() => setMobileOpen(false)}
-                className="py-3 text-base font-medium text-foreground hover:text-primary transition-colors"
+                className="py-3 text-base font-medium text-foreground hover:text-primary transition-colors block"
               >
                 {item.label}
-              </Link>
+              </a>
             ))}
           </nav>
         </div>

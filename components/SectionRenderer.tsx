@@ -1,4 +1,3 @@
-import Link from "next/link";
 import {
   Sparkles,
   Palette,
@@ -127,12 +126,12 @@ export function SectionRenderer({ sections }: SectionRendererProps) {
                     </p>
                   )}
                   {section.ctaHref && section.ctaLabel && (
-                    <Link
+                    <a
                       href={`${basePath}${section.ctaHref}`}
                       className="mt-8 inline-flex items-center justify-center rounded-xl bg-primary px-8 py-3 text-base font-semibold text-primary-foreground hover:bg-secondary transition-colors shadow-lg"
                     >
                       {section.ctaLabel}
-                    </Link>
+                    </a>
                   )}
                 </div>
               )}

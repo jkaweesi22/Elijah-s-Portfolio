@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Instagram, Linkedin } from "lucide-react";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
@@ -50,12 +49,12 @@ export function Footer({
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
           <div>
-            <Link
+            <a
               href={`${basePath}/`}
               className="text-xl font-semibold text-foreground hover:text-primary transition-colors"
             >
               {siteName}
-            </Link>
+            </a>
             <p className="mt-2 text-sm text-muted-foreground">{tagline}</p>
             <div className="mt-4 flex gap-4">
               {socialLinks.map((link) => {
@@ -80,13 +79,13 @@ export function Footer({
             <h4 className="font-semibold text-foreground">Navigate</h4>
             <nav className="mt-4 flex flex-col gap-2">
               {navigation.map((item) => (
-                <Link
+                <a
                   key={item.label}
                   href={`${basePath}${item.href}`}
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   {item.label}
-                </Link>
+                </a>
               ))}
             </nav>
           </div>
