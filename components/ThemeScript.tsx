@@ -1,8 +1,7 @@
-"use client";
-
 /**
  * Inline script that runs before paint to prevent theme flash.
  * Must be placed in head/layout before any content.
+ * Renders as static HTML - no "use client" needed (no hooks).
  */
 export function ThemeScript() {
   const script = `

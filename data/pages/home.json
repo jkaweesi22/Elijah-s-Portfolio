@@ -2,7 +2,7 @@
   "hero": {
     "title": "Design That Tells a Story",
     "subtitle": "Creative visuals crafted with Canva and passion.",
-    "backgroundImage": "https://picsum.photos/seed/hero/1920/1080",
+    "backgroundImage": "https://images.pexels.com/photos/3082341/pexels-photo-3082341.jpeg?auto=compress&cs=tinysrgb&w=1920",
     "ctas": [
       { "label": "View Work", "href": "/work/", "primary": true },
       { "label": "Hire Me", "href": "/contact/", "primary": false }
