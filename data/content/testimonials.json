@@ -1,0 +1,39 @@
+{
+  "testimonials": [
+    {
+      "name": "Sarah Mitchell",
+      "role": "Marketing Director",
+      "company": "Community Faith Church",
+      "quote": "Elijah transformed our conference materials from basic to beautiful. The flyer series was cohesive, professional, and perfectly captured our church's warmth. We got so many compliments!",
+      "avatar": null
+    },
+    {
+      "name": "Marcus Chen",
+      "role": "Owner",
+      "company": "Brew & Co.",
+      "quote": "Our Instagram engagement skyrocketed after Elijah created our brand kit. Finally, our feed looks as good as our coffee tastes. Highly recommend!",
+      "avatar": null
+    },
+    {
+      "name": "Jennifer Parks",
+      "role": "Life Coach",
+      "company": "Rise & Shine Coaching",
+      "quote": "I needed a library of quote graphics that felt on-brand. Elijah delivered 50+ gorgeous designs I can use for months. Professional, creative, and a joy to work with.",
+      "avatar": null
+    },
+    {
+      "name": "David Okello",
+      "role": "Realtor",
+      "company": "Greenfield Realty",
+      "quote": "The marketing kit Elijah built for me has become my secret weapon. My listings stand out, and clients consistently comment on how polished everything looks.",
+      "avatar": null
+    },
+    {
+      "name": "Amanda Foster",
+      "role": "Program Director",
+      "company": "Community Youth Center",
+      "quote": "The youth event posters were a hit! Bold, energetic, and perfect for our audience. Elijah understood the vibe we wanted from day one.",
+      "avatar": null
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Design That Tells a Story",
+    "subtitle": "Creative visuals crafted with Canva and passion.",
+    "backgroundImage": "https://picsum.photos/seed/hero/1920/1080",
+    "ctas": [
+      { "label": "View Work", "href": "/work/", "primary": true },
+      { "label": "Hire Me", "href": "/contact/", "primary": false }
+    ]
+  },
+  "sections": [
+    {
+      "type": "feature-grid",
+      "title": "What I Do",
+      "subtitle": "Bringing ideas to life through purposeful design.",
+      "items": [
+        {
+          "title": "Social Media Design",
+          "description": "Scroll-stopping visuals for Instagram, Facebook, and LinkedIn that engage and convert.",
+          "icon": "sparkles"
+        },
+        {
+          "title": "Brand Identity",
+          "description": "Logos, color palettes, and brand guidelines that make your business memorable.",
+          "icon": "palette"
+        },
+        {
+          "title": "Flyers & Posters",
+          "description": "Event promotions, announcements, and print-ready designs that get noticed.",
+          "icon": "layout"
+        },
+        {
+          "title": "Marketing Materials",
+          "description": "Brochures, banners, and promotional assets that drive action.",
+          "icon": "megaphone"
+        }
+      ]
+    },
+    {
+      "type": "portfolio-preview",
+      "title": "Featured Work",
+      "subtitle": "A selection of recent projects.",
+      "limit": 6
+    },
+    {
+      "type": "testimonial",
+      "title": "What Clients Say",
+      "subtitle": "Trusted by brands and individuals alike.",
+      "limit": 2
+    },
+    {
+      "type": "call-to-action",
+      "title": "Ready to Create Something Beautiful?",
+      "subtitle": "Let's bring your vision to life. Get in touch today.",
+      "ctaLabel": "Start a Project",
+      "ctaHref": "/contact/"
+    }
+  ]
+}

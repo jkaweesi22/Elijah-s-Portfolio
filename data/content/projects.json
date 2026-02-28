@@ -1,0 +1,131 @@
+{
+  "projects": [
+    {
+      "slug": "church-conference-flyer-series",
+      "title": "Church Conference Flyer Series",
+      "category": "Print",
+      "summary": "A cohesive visual series for a multi-day church conference, from save-the-dates to program covers.",
+      "description": "Designed a full suite of print materials for an annual church conference, including save-the-date postcards, main event flyers, workshop handouts, and program booklet covers. The design used warm, inviting colors and clean typography to reflect the community-focused nature of the event.",
+      "toolsUsed": ["Canva", "Canva Pro"],
+      "client": "Community Faith Church",
+      "year": "2025",
+      "images": [
+        "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=800&h=600&fit=crop&q=80"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "instagram-brand-kit-small-business",
+      "title": "Instagram Brand Kit for Small Business",
+      "category": "Social Media",
+      "summary": "Complete Instagram visual identity for a boutique coffee roastery.",
+      "description": "Created a full brand kit including profile templates, story highlights, post templates, and a content calendar design system. The aesthetic blends earthy tones with bold typography to match the brand's artisanal positioning.",
+      "toolsUsed": ["Canva", "Adobe Express"],
+      "client": "Brew & Co.",
+      "year": "2025",
+      "images": [
+        "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=800&h=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&h=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&h=600&fit=crop&q=80"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "youth-event-poster-collection",
+      "title": "Youth Event Poster Collection",
+      "category": "Print",
+      "summary": "Bold, energetic posters for a youth sports and arts summer program.",
+      "description": "Designed a series of eye-catching posters to promote summer programs including basketball camp, music workshop, and creative arts sessions. Vibrant gradients and dynamic layouts captured the energy of youth culture.",
+      "toolsUsed": ["Canva"],
+      "client": "Community Youth Center",
+      "year": "2024",
+      "images": [
+        "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&h=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop&q=80"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "restaurant-social-media-rebrand",
+      "title": "Restaurant Social Media Rebrand",
+      "category": "Social Media",
+      "summary": "Full social refresh for a family-owned Italian restaurant.",
+      "description": "Refreshed the restaurant's Instagram and Facebook presence with a new visual identity. Designed menu highlights, promotional posts, seasonal campaigns, and engaging stories that increased follower engagement by 40%.",
+      "toolsUsed": ["Canva", "Canva Pro"],
+      "client": "Casa Dolce",
+      "year": "2025",
+      "images": [
+        "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop&q=80"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "motivational-quote-campaign",
+      "title": "Motivational Quote Campaign",
+      "category": "Social Media",
+      "summary": "Typography-driven quote graphics for a life coach's content library.",
+      "description": "Designed 50+ motivational quote graphics with consistent branding for a life coach's social media. Each graphic featured clean typography, soft gradients, and a cohesive color palette that reinforced the coach's uplifting message.",
+      "toolsUsed": ["Canva"],
+      "client": "Rise & Shine Coaching",
+      "year": "2024",
+      "images": [
+        "https://picsum.photos/seed/quote1/800/600",
+        "https://picsum.photos/seed/quote2/800/600"
+      ],
+      "featured": false
+    },
+    {
+      "slug": "real-estate-marketing-kit",
+      "title": "Real Estate Marketing Kit",
+      "category": "Marketing",
+      "summary": "Listing templates, open house flyers, and brand materials for a realtor.",
+      "description": "Created a professional marketing kit including property listing templates, open house flyers, business card design, and social media templates. The sophisticated blue-green palette conveyed trust and professionalism while standing out in a competitive market.",
+      "toolsUsed": ["Canva", "Canva Pro"],
+      "client": "Greenfield Realty",
+      "year": "2025",
+      "images": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop&q=80"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "nonprofit-annual-report",
+      "title": "Nonprofit Annual Report",
+      "category": "Marketing",
+      "summary": "Impact-focused annual report design for a local education charity.",
+      "description": "Designed a visually compelling annual report that highlighted the organization's impact through infographics, photo layouts, and clear data visualization. The design balanced professionalism with approachability to resonate with donors and stakeholders.",
+      "toolsUsed": ["Canva", "Adobe Express"],
+      "client": "Books for Tomorrow",
+      "year": "2024",
+      "images": [
+        "https://picsum.photos/seed/nonprofit1/800/600",
+        "https://picsum.photos/seed/nonprofit2/800/600"
+      ],
+      "featured": false
+    },
+    {
+      "slug": "fitness-studio-brand-launch",
+      "title": "Fitness Studio Brand Launch",
+      "category": "Branding",
+      "summary": "Full brand identity for a new boutique fitness studio.",
+      "description": "Developed complete brand identity including logo, color palette, typography guidelines, and initial marketing collateral. The energetic yet refined aesthetic appealed to the studio's target demographic of busy professionals seeking wellness.",
+      "toolsUsed": ["Canva", "Canva Pro", "Adobe Express"],
+      "client": "Flow Fitness",
+      "year": "2025",
+      "images": [
+        "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&h=600&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&h=600&fit=crop&q=80"
+      ],
+      "featured": true
+    }
+  ]
+}

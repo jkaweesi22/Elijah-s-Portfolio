@@ -1,0 +1,26 @@
+{
+  "siteName": "Elijah Biimbwa",
+  "profileImage": "/images/elijah.jpg",
+  "tagline": "Creative Designer",
+  "subtagline": "Branding • Social Media • Visual Storytelling",
+  "description": "Creative designer specializing in graphic design, brand identity, social media visuals, and marketing materials. Bringing your vision to life with Canva and passion.",
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "Work", "href": "/work/" },
+    { "label": "About", "href": "/about/" },
+    { "label": "Testimonials", "href": "/testimonials/" },
+    { "label": "Contact", "href": "/contact/" }
+  ],
+  "socialLinks": [
+    { "platform": "Instagram", "url": "https://instagram.com", "icon": "instagram" },
+    { "platform": "LinkedIn", "url": "https://linkedin.com", "icon": "linkedin" },
+    { "platform": "Behance", "url": "https://behance.net", "icon": "behance" }
+  ],
+  "contactInfo": {
+    "email": "hello@elijahdesign.com",
+    "location": "Your City, Country"
+  },
+  "theme": {
+    "defaultMode": "system"
+  }
+}

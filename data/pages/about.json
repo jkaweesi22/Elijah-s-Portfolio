@@ -1,0 +1,52 @@
+{
+  "story": {
+    "title": "My Creative Journey",
+    "content": "I've always been drawn to how design shapes the way we feel. What started as a hobby—creating flyers for friends' events and helping small businesses with their social media—grew into a passion for turning ideas into visuals that resonate.\n\nI believe great design doesn't require the most expensive tools. It requires intention, a keen eye, and a commitment to understanding what makes your audience stop scrolling. Whether it's a church flyer that fills seats or an Instagram post that drives clicks, I craft each piece with purpose."
+  },
+  "philosophy": {
+    "title": "My Philosophy",
+    "content": "Design should feel human. It should connect, inspire, and move people to action—without feeling cold or corporate. I bring a creative, approachable energy to every project, blending professionalism with the warmth that makes brands memorable."
+  },
+  "tools": {
+    "title": "Tools I Use",
+    "items": [
+      { "name": "Canva", "description": "Primary design platform for social, print, and brand work" },
+      { "name": "Canva Pro", "description": "Extended assets, brand kits, and collaboration" },
+      { "name": "Adobe Express", "description": "Quick edits and complementary design tasks" },
+      { "name": "Typography & Layout", "description": "Careful attention to hierarchy and readability" }
+    ]
+  },
+  "process": {
+    "title": "How I Work",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Discover",
+        "description": "I listen, ask questions, and get to know your brand, audience, and goals."
+      },
+      {
+        "number": "2",
+        "title": "Design",
+        "description": "I create visuals that align with your vision, iterating until it feels right."
+      },
+      {
+        "number": "3",
+        "title": "Deliver",
+        "description": "You receive polished, ready-to-use files—and guidance on how to use them."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "items": [
+      "Graphic Design",
+      "Brand Identity",
+      "Social Media Design",
+      "Print Design",
+      "Marketing Materials",
+      "Typography",
+      "Visual Storytelling",
+      "Client Collaboration"
+    ]
+  }
+}

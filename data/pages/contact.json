@@ -1,0 +1,15 @@
+{
+  "title": "Let's Create Together",
+  "subtitle": "Ready to bring your vision to life? I'd love to hear about your project.",
+  "description": "Whether you need a single flyer or a full brand refresh, reach out and let's discuss how we can work together.",
+  "contactInfo": {
+    "email": "hello@elijahdesign.com",
+    "location": "Your City, Country"
+  },
+  "formLabels": {
+    "name": "Your Name",
+    "email": "Email Address",
+    "project": "Tell me about your project",
+    "submit": "Send Message"
+  }
+}
